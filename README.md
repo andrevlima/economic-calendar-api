@@ -5,8 +5,6 @@ Version 1.0.0
 
 An API endpoint implement to give fast as possible a JSON response with the economic calendar of events.
 
-The investing.com economic calendar is used as data source.
-
 It uses the investing.com as data source and using a "web crawling" methodology,
 revelant data is captured and returned in a more well-structured data model, in this
 case it will return a JSON.
