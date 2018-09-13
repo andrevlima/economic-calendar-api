@@ -25,5 +25,16 @@ http://localhost/economic-calendar-api
 ```
 And you will see a JSON as response like this:
 ```
-
+[
+  {
+    "pair": "NZD",
+    "impact": 1,
+    "data": "2018-09-09 22:45:00",
+    "name": "Manufacturing Sales Volume (QoQ) (Q2)",
+    "actual": "-1.2%",
+    "forecast": "",
+    "previous": "1.4%"
+  },
+  ...
+]
 ```
