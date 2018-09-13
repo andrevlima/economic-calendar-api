@@ -3,7 +3,7 @@ Economic Calendar API
 
 Version 1.0.0
 
-An API endpoint implement to give fast as possible a JSON response with the economic calendar of events.
+An API endpoint implement to give fast as possible a JSON response with the economic calendar of events, commonly used in Forex.
 
 It uses the investing.com as data source and using a "web crawling" methodology,
 revelant data is captured and returned in a more well-structured data model, in this
