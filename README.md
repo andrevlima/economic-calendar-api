@@ -23,7 +23,7 @@ And you will see a JSON as response like this:
 ```
 [
   {
-    "pair": "NZD",
+    "economy": "NZD",
     "impact": 1,
     "data": "2018-09-09 22:45:00",
     "name": "Manufacturing Sales Volume (QoQ) (Q2)",
