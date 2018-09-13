@@ -16,7 +16,7 @@ It was concepted to be the most simple as possible to be easy to maintain and us
 
 ## How to use:
 
-Just checkout or download this repository and copy this folder in your favorite PHP server. Probably your url in a PHP server with common default configurations, will be available here:
+Just checkout or download this repository and copy this folder to your favorite PHP server. Probably your url in a PHP server with common default configurations, will be available here:
 
 ```
 http://localhost/economic-calendar-api
