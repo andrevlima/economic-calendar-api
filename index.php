@@ -15,8 +15,8 @@
 */
 header("Content-Type: application/json");
 
+include_once(getcwd() . "/src/Sunra/PhpSimple/HtmlDomParser.php");
 use Sunra\PhpSimple\HtmlDomParser;
-include_once("Src\Sunra\PhpSimple\HtmlDomParser.php");
 
 $dom = HtmlDomParser::file_get_html( "https://sslecal2.forexprostools.com/" );
 
