@@ -40,4 +40,3 @@ foreach($elems as $element) {
 }
 
 echo json_encode($data);
-?>

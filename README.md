@@ -1,4 +1,4 @@
-investing-forex-calendar-api
+Economic Calendar API
 ==========================
 
 Version 1.0.0
@@ -15,3 +15,15 @@ There is no guarantees about the availability or estability of this API, changes
 can be done in source page that can result in a crash of crawler methodology.
 
 It was concepted to be the most simple as possible to be easy to maintain and use.
+
+## How to use:
+
+Just checkout or download this repository and copy this folder in your favorite PHP server. Probably your url in a PHP server with common default configurations, will be available here:
+
+```
+http://localhost/economic-calendar-api
+```
+And you will see a JSON as response like this:
+```
+
+```

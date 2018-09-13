@@ -136,12 +136,12 @@ class simple_html_dom_node
         $this->dom = $dom;
         $dom->nodes[] = $this;
     }
-
+/*
     function __destruct()
     {
         //$this->clear();
     }
-
+*/
     function __toString()
     {
         return $this->outertext();
@@ -1045,12 +1045,12 @@ class simple_html_dom
         }
         $this->_target_charset = $target_charset;
     }
-
+/*
     function __destruct()
     {
         //$this->clear();
     }
-
+*/
     // load html from string
     function load($str, $lowercase=true, $stripRN=true, $defaultBRText=DEFAULT_BR_TEXT, $defaultSpanText=DEFAULT_SPAN_TEXT)
     {
