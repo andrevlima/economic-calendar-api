@@ -1,4 +1,4 @@
-Economic Calendar API
+(Forex) Economic Calendar API
 ==========================
 
 An API endpoint made in PHP that was implemented to give, as fast as possible, a JSON response with the economic calendar of events, commonly used in Forex.
