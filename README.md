@@ -36,5 +36,5 @@ And you will see a JSON as response like this:
   ...
 ]
 ```
-Tip: If you want, you are able to host it in almost of free hosts to make it online and available on the internet. 
+Tip: If you want, you are able to host it in almost free webhosts to make it online and available on the internet. 
 https://www.freehosting.com/ or https://www.000webhost.com/ and many others.
