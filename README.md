@@ -19,7 +19,7 @@ A demo available is [here](https://ecocalendar.000webhostapp.com/api/) (Can be b
 
 After just clone this repository you can copy that just right away to your PHP server.
 You can use XAMPP for example for this: [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
-or any other you prefer.
+(Put it in htdocs folder and start PHP server) or any other you prefer.
 
 ## How to use:
 
