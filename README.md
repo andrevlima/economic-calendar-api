@@ -15,6 +15,12 @@ It was concepted to be the most simple as possible to be easy to maintain and us
 
 A demo available is [here](https://ecocalendar.000webhostapp.com/api/) (when this file was updated)
 
+## Play
+
+After just clone this repository you can copy that just right away to your PHP server.
+You can use XAMPP for example for this: [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
+or any other you prefer.
+
 ## How to use:
 
 Just checkout or download this repository and copy this folder to your favorite PHP server. Probably your url in a PHP server with common default configurations, will be available:
