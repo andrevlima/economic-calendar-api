@@ -15,8 +15,8 @@
 */
 header("Content-Type: application/json");
 
-include_once(getcwd() . "/vendor/sunra/php-simple-html-dom-parser/Src/Sunra/PhpSimple/HtmlDomParser.php");
-use Sunra\PhpSimple\HtmlDomParser;
+include_once(getcwd() . "/vendor/kub-at/php-simple-html-dom-parser/src/KubAT/PhpSimple/HtmlDomParser.php");
+use KubAT\PhpSimple\HtmlDomParser;
 
 $dom = HtmlDomParser::file_get_html("https://sslecal2.forexprostools.com/", false, null, 0);
 $elems = $dom->getElementById("#ecEventsTable")->find("tr[id*='eventRowId']");

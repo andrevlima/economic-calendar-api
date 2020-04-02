@@ -14,7 +14,7 @@
     "require": {
         "php": ">=5.3.2",
         "ext-mbstring": "*",
-		"sunra/php-simple-html-dom-parser": "1.5.2"
+        "kub-at/php-simple-html-dom-parser": "^1.9"
     },
     "autoload": {
         "psr-0": { "Sunra\\PhpSimple\\HtmlDomParser": "src/" }
