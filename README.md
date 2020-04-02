@@ -1,5 +1,6 @@
 (Forex) Economic Calendar API
 ==========================
+![PHP Composer](https://github.com/andrevlima/economic-calendar-api/workflows/PHP%20Composer/badge.svg)
 
 An API endpoint made in PHP that was implemented to give, as fast as possible, a JSON response with the economic calendar of events, commonly used in Forex.
 
