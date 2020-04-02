@@ -15,11 +15,10 @@
 */
 header("Content-Type: application/json");
 
-include_once(getcwd() . "/src/Sunra/PhpSimple/HtmlDomParser.php");
+include_once(getcwd() . "/vendor/sunra/php-simple-html-dom-parser/Src/Sunra/PhpSimple/HtmlDomParser.php");
 use Sunra\PhpSimple\HtmlDomParser;
 
-$dom = HtmlDomParser::file_get_html( "https://sslecal2.forexprostools.com/" );
-
+$dom = HtmlDomParser::file_get_html("https://sslecal2.forexprostools.com/", false, null, 0);
 $elems = $dom->getElementById("#ecEventsTable")->find("tr[id*='eventRowId']");
 $data = [];
 
@@ -33,9 +32,9 @@ foreach($elems as $element) {
         "impact" =>  count($element->find("td.sentiment")[0]->find("i.grayFullBullishIcon")),
 	    "data" => isset($element->attr["event_timestamp"]) ? $element->attr["event_timestamp"] : null,
 	    "name" => count($name = $element->find("td.event")) > 0 ? sanitize($name[0]->text()) : null,
-	    "actual" => 	count($actual = $element->find("td.act")) > 0 ? sanitize($actual[0]->text()) : null,
-	    "forecast" => 	count($forecast = $element->find("td.fore")) > 0 ? sanitize($forecast[0]->text()) : null,
-	    "previous" => 	count($previous = $element->find("td.prev")) > 0 ? sanitize($previous[0]->text()) : null,
+	    "actual" => count($actual = $element->find("td.act")) > 0 ? sanitize($actual[0]->text()) : null,
+	    "forecast" => count($forecast = $element->find("td.fore")) > 0 ? sanitize($forecast[0]->text()) : null,
+	    "previous" => count($previous = $element->find("td.prev")) > 0 ? sanitize($previous[0]->text()) : null,
 	]);
 }
 
