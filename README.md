@@ -9,7 +9,7 @@ revelant data is captured and returned in a more well-structured data model, in 
 case it will return a JSON.
 
 There is no guarantees about the availability or estability of this API, changes
-can be done in source page that can result in a crash of crawler methodology.
+can be done in source page that can result in a crash of the web crawler.
 
 It was concepted to be the most simple as possible to be easy to maintain and use.
 
