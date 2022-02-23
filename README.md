@@ -13,7 +13,7 @@ can be done in source page that can result in a crash of the web crawler.
 
 It was concepted to be the most simple as possible to be easy to maintain and use.
 
-A demo available is [here](https://ecocalendar.000webhostapp.com/api/) (Can be broken, free server can be deleted)
+A demo available is [here](https://forexcalendarjson.000webhostapp.com/) (Can be broken, free server can be deleted)
 
 ## Play
 
