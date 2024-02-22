@@ -1,7 +1,6 @@
 (Forex) Economic Calendar API
 ==========================
-![PHP Composer](https://img.shields.io/badge/Composer-885630.svg?style=for-the-badge&logo=Composer&logoColor=white)
-![PHP Composer](https://img.shields.io/badge/PHP-777BB4.svg?style=for-the-badge&logo=PHP&logoColor=white)
+[![PHP Composer](https://github.com/andrevlima/economic-calendar-api/actions/workflows/php.yml/badge.svg?branch=master)](https://github.com/andrevlima/economic-calendar-api/actions/workflows/php.yml)
 
 An API endpoint made in PHP that was implemented to give, as fast as possible, a JSON response with the economic calendar of events, commonly used in Forex.
 
@@ -13,6 +12,8 @@ There is no guarantees about the availability or estability of this API, changes
 can be done in source page that can result in a crash of the web crawler.
 
 It was concepted to be the most simple as possible to be easy to maintain and use.
+
+![Static Badge](https://img.shields.io/badge/composer-php-blue?logo=php)
 
 ## Demo
 A demo available is [here](https://andrevlimawebh.000webhostapp.com/) (Can be broken, free server can be deleted)
