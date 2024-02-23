@@ -17,7 +17,7 @@ use KubAT\PhpSimple\HtmlDomParser;
 
 class EconomicCalendarAPI {
     private $cacheSuffix = "_api-cache.json";
-    private $minGapFromNextEvent = 300; // If next event is timed for the next 3 minutes, cache won't be used
+    private $minGapFromNextEvent = 300; // If next event is timed for the next 5 minutes, cache won't be used
     private $dataSourceUrl = "https://sslecal2.forexprostools.com/";
     private $cacheFile = false; // File path to cache
 
