@@ -2,30 +2,24 @@
 ==========================
 [![PHP Composer](https://github.com/andrevlima/economic-calendar-api/actions/workflows/php.yml/badge.svg?branch=master)](https://github.com/andrevlima/economic-calendar-api/actions/workflows/php.yml)
 
-An API endpoint made in PHP that was implemented to give, as fast as possible, a JSON response with the economic calendar of events, commonly used in Forex.
+This project consists of a PHP-based API endpoint designed to rapidly deliver the current economic calendar of events in JSON format, often utilized within the Forex market. 
 
-It uses the investing.com as data source and using a "web crawling" methodology,
-revelant data is captured and returned in a more well-structured data model, in this
-case it will return a JSON.
+It sources its data from investing.com through web crawling techniques, extracting relevant information and presenting it in a well-structured data model, specifically in JSON format.
+It is important to note that there are no guarantees regarding its availability or stability. Potential changes on the source page (investing.com) could disrupt the web crawler's functionality, leading to possible outages or errors.
 
-There is no guarantees about the availability or estability of this API, changes
-can be done in source page that can result in a crash of the web crawler.
-
-It was concepted to be the most simple as possible to be easy to maintain and use.
+The API has been intentionally developed with simplicity in mind, both in terms of maintenance and user experience, ensuring that it remains accessible and straightforward to integrate into various applications.
 
 ![Static Badge](https://img.shields.io/badge/composer-php-blue?logo=php)
 
-## Demo
-A demo available is [here](https://andrevlimawebh.000webhostapp.com/) (Can be broken, free server can be deleted)
+## Play / Installation 
+Just upload this repo on your favourite PHP Server.
 
-## Play
-After just clone this repository you can copy that just right away to your PHP server.
-You can use XAMPP for example for this: [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
-(Put it in htdocs folder and start PHP server) or any other you prefer.
+You can use XAMPP for example: [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
+(Put files in htdocs folder and start PHP server).
 
 ## How to use:
 
-Just checkout or download this repository and copy this folder to your favorite PHP server. Probably your url in a PHP server with common default configurations, will be available:
+Super simple, probably your url in a PHP server with common default configurations will be available:
 
 ```
 http://localhost/economic-calendar-api
@@ -45,5 +39,9 @@ And you will see a JSON as response like this:
   ...
 ]
 ```
+
+## Demo
+A demo available is [here](https://andrevlimawebh.000webhostapp.com/) (Can be broken, free server can be deleted)
+
 Tip: If you want, you are able to host it in almost free webhosts to make it online and available on the internet. 
 https://www.freehosting.com/ or https://www.000webhost.com/ and many others.
