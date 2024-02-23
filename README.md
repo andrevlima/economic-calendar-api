@@ -7,12 +7,12 @@ This project consists of a PHP-based API endpoint designed to rapidly deliver th
 It sources its data from investing.com through web crawling techniques, extracting relevant information and presenting it in a well-structured data model, specifically in JSON format.
 It is important to note that there are no guarantees regarding its availability or stability. Potential changes on the source page (investing.com) could disrupt the web crawler's functionality, leading to possible outages or errors.
 
-The API has been intentionally developed with simplicity in mind, both in terms of maintenance and user experience, ensuring that it remains accessible and straightforward to integrate into various applications.
+The API has been intentionally developed with simplicity in mind, both in terms of maintenance and usability, ensuring that it remains straightforward to integrate into various applications.
 
 ![Static Badge](https://img.shields.io/badge/composer-php-blue?logo=php)
 
 ## Play / Installation 
-Just upload this repo on your favourite PHP Server.
+Just upload this repo files on your favourite PHP Server.
 
 You can use XAMPP for example: [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
 (Put files in htdocs folder and start PHP server).
